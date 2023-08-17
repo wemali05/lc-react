@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
-import Another from './Another';
+import Another from '../Another';
 
 function App() {
   const someStyle = {
