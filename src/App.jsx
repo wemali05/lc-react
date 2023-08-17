@@ -9,25 +9,25 @@ function App() {
     color: 'white',
     fontSize: '28px',
     fontWeight: 'bold',
-    padding: '8px'
-  }
+    padding: '8px',
+  };
 
   const [count, setCount] = useState(0);
 
   let decreament = () => {
-    setCount(count - 1)
-  }
+    setCount(count - 1);
+  };
 
   let increament = () => {
-    setCount(count + 1)
-  }
-  
+    setCount(count + 1);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <Another name="Alfred Wemali N"/>
+        <Another name="Alfred Wemali N" />
         <div>
-          <span style={someStyle}>{ count }</span>
+          <span style={someStyle}>{count}</span>
           <button onClick={decreament}>-</button>
           <button onClick={increament}>+</button>
         </div>
