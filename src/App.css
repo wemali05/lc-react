@@ -138,3 +138,13 @@ h2 {
   padding-top: 16px;
   border-top: 1px solid lightgray;
 }
+
+.no-todos-container {
+  margin: 30px auto;
+  width: 300px;
+}
+
+.no-todos-container p {
+  margin-top: 20px;
+  text-align: center;
+}
